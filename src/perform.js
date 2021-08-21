@@ -108,7 +108,7 @@ export function printpage(){
 const a = () => {
     return (
         <div>
-           {console.log("a fun")} 
+           
             {perform}
         </div>
     )
