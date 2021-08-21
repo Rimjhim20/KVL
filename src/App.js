@@ -43,7 +43,7 @@ const App = () => {
                   <li> Then click on Run.</li>
                   </ul>
                
-                <p className=" text-center"><input type="button" className="mt-12 mb-4 inline block text-center font-bold bg-gradient-to-r from-blue border-2 border-black  text-2xl px-2  rounded-2xl text-pink-800 " defaultValue="Verify" onClick={perform}/></p>
+                <p className=" text-center"><input type="button" className="mt-12 mb-4 inline block text-center font-bold bg-gradient-to-r from-blue border-2 border-black  text-2xl px-2 cursor-pointer  rounded-2xl text-pink-800 " defaultValue="Verify" onClick={perform}/></p>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ const App = () => {
             <br />
           </div>
           <div className="mb-8 ml-96">
-            <input type="button" onClick={printpage} defaultValue="Click here to print the observation table" className=" border-4 border-black w-auto p-2 font-bold bg-gradient-to-r from-blue text-pink-700	 text-xl   rounded-lg " />
+            <input type="button" onClick={printpage} defaultValue="Click here to print the observation table" className=" border-4 cursor-pointer border-black w-auto p-2 font-bold bg-gradient-to-r from-blue text-pink-700	 text-xl   rounded-lg " />
            
           </div>
         </form>
