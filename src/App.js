@@ -38,7 +38,7 @@ const App = () => {
               <br />
               <div id="tab-content1" >
 
-                <ul  class="list-disc p-4 text-xl text-blue italic ">
+                <ul  class="list-disc p-4 text-xl italic ">
                   <li class="mb-4">Input the values of Voltage sources &amp; Resistances </li>
                   <li> Then click on Run.</li>
                   </ul>
@@ -49,7 +49,7 @@ const App = () => {
           </div>
           <div className=" text-center clear-both " />
           <div id="observation" className=" text-center w-11/12 mt-28  ">
-            <h3 className="font-bold text-4xl  text-black mb-4 ">Observation Table</h3>
+            <h3 className="font-bold text-4xl   mb-4 ">Observation Table</h3>
             <table cellSpacing={0} className="text-sm border-4 border-black center" >
               {/* cellspacing='0' is important, must stay */}
               <tbody><tr  >
