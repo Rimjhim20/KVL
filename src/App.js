@@ -36,7 +36,7 @@ const App = () => {
                 Instructions
               </div>
               <br />
-              <div id="tab-content1" className="animated fadeIn">
+              <div id="tab-content1" >
 
                 <ul  class="list-disc p-4 text-xl text-blue italic ">
                   <li class="mb-4">Input the values of Voltage sources &amp; Resistances </li>
@@ -78,7 +78,7 @@ const App = () => {
                 </tr>
                 {/* Table Row */}
                 <tr>
-                  <td class="border-2 border-blue p-4"><strong>2</strong></td>
+                  <td class="border-2 border-blue p-4">2</td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v12" defaultValue id="tr1" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v22" defaultValue id="tr2" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v32" defaultValue id="tr3" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
@@ -88,7 +88,7 @@ const App = () => {
                   <td class="border-2 border-blue p-4"> <input type="number" name="k22" defaultValue id="tr7" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                 </tr>
                 <tr>
-                  <td class="border-2 border-blue p-4"><strong>3</strong></td>
+                  <td class="border-2 border-blue p-4">3</td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v13" defaultValue id="tr1" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v23" defaultValue id="tr2" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v33" defaultValue id="tr3" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
@@ -98,7 +98,7 @@ const App = () => {
                   <td class="border-2 border-blue p-4"><input type="number" name="k23" defaultValue id="tr7" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                 </tr>
                 <tr>
-                  <td class="border-2 border-blue p-4"><strong>4</strong></td>
+                  <td class="border-2 border-blue p-4">4</td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v14" defaultValue id="tr1" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v24" defaultValue id="tr2" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v34" defaultValue id="tr3" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
@@ -108,7 +108,7 @@ const App = () => {
                   <td class="border-2 border-blue p-4"><input type="number" name="k24" defaultValue id="tr7" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                 </tr>
                 <tr>
-                  <td class="border-2 border-blue p-4"><strong>5</strong></td>
+                  <td class="border-2 border-blue p-4">5</td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v15" defaultValue id="tr1" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v25" defaultValue id="tr2" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
                   <td class="border-2 border-blue p-4"><input type="number" name="v35" defaultValue id="tr3" className="bg-transparent text-black text-center border-none w-20" readOnly="readonly" /></td>
