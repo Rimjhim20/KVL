@@ -122,7 +122,7 @@ const App = () => {
             <br />
           </div>
           <div className="mb-8 ml-96">
-            <input type="button" onclick="window.print()" defaultValue="Click here to print the observation table" className=" border-4 border-black w-auto p-2 font-bold bg-gradient-to-r from-blue text-pink-700	 text-xl   rounded-lg " />
+            <input type="button" onClick={window.print()} defaultValue="Click here to print the observation table" className=" border-4 border-black w-auto p-2 font-bold bg-gradient-to-r from-blue text-pink-700	 text-xl   rounded-lg " />
            
           </div>
         </form>
