@@ -105,15 +105,6 @@ export function printpage(){
 }
 
 
-const a = () => {
-    return (
-        <div>
-           
-            {perform}
-        </div>
-    )
-}
 
-export {a};
 
 
