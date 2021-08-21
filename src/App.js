@@ -7,8 +7,7 @@ import './index.css'
 const App = () => {
   return (
     <>
-     <script src="./exp.js" type="text/javascript">
-    </script>
+  
      <div id="whole_body" className=" w-10/12 h-auto ml-auto mr-auto ">
        <div class="relative w-full">
         <div class="  font-bold text-black px-4 rounded-lg text-5xl text-center h-auto mt-8 ">
