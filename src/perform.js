@@ -100,6 +100,10 @@ export default function perform() {
 
 }
 
+export function printpage(){
+    window.print()
+}
+
 
 const a = () => {
     return (
